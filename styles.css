@@ -1,3 +1,72 @@
-h3 {
-  color: gold;
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500&display=swap');
+
+
+:root {
+  --main-color: #1E293B;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+a {
+  text-decoration: none;
+  color: white;
+  padding-left: 15px;
+}
+
+a:hover {
+  color: rgb(184, 77, 95);
+}
+
+
+.header {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 20px;
+  background-color: var(--main-color);
+}
+
+.feature {
+  color: white;
+  display: grid;
+  height: 250px;
+  padding: 20px 20px 0 20px;
+  grid-template-columns: 2fr 1fr;
+  background-color: var(--main-color);
+
+}
+
+.feature .info {
+  margin-top: 20px;
+
+}
+
+form {
+  margin: 10px 0;
+}
+
+input {
+  outline: none;
+  padding: 2px 5px;
+  width: 200px;
+
+}
+
+.feature button {
+  padding: 4px 10px;
+  color: black;
+  border: none;
+  background-color: rgb(211, 91, 111);
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: black;
+  color: white;
 }

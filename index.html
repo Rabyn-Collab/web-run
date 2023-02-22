@@ -5,177 +5,81 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sample Grid</title>
+    <title>Skillz</title>
 
-    <link rel="icon" href="/assets/images/model.png" type="icon">
+    <link rel="icon" href="/assets/images/model.png">
 
-    <style>
-      @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500&display=swap');
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-      * {
-        box-sizing: border-box;
-        padding: 0;
-        margin: 0;
-      }
-
-      body {
-        font-family: 'Nunito', sans-serif;
-        padding: 10px 20px;
-      }
-
-
-
-      li {
-        list-style: none;
-      }
-
-      .head {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-      }
-
-      nav ul {
-        display: flex;
-      }
-
-      nav li {
-        margin-left: 15px;
-        font-size: 1rem;
-        cursor: pointer;
-      }
-
-      .feature-photo img {
-        height: 300px;
-        width: 100%;
-      }
-
-      .feature {
-        margin: 25px 0;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        align-items: center;
-        gap: 20px;
-      }
-
-      .articles {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 20px;
-      }
-
-      .article {
-        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-        padding: 15px;
-        text-align: center;
-      }
-
-      .article p {
-        text-align: justify;
-      }
-
-      @media(max-width: 950px) {
-        .articles {
-          grid-template-columns: repeat(2, 1fr);
-
-        }
-
-      }
-
-
-      @media(max-width: 600px) {
-
-        .articles,
-        .feature {
-          grid-template-columns: 1fr;
-
-        }
-
-        nav {
-          display: none;
-        }
-      }
-    </style>
+    <link rel="stylesheet" href="styles.css" type="text/css">
 
   </head>
 
   <body>
-
-    <div class="grid-continer">
-
-      <!-- heade section -->
-      <div class="head">
-        <h1>Sample Grid</h1>
-
-        <nav>
-          <ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>Contact</li>
-          </ul>
-        </nav>
-
-      </div>
+    <!-- header section -->
+    <div class="header">
+      <h1>
+        Skillz
+      </h1>
 
 
-
-      <!-- feature section -->
-
-      <div class="feature">
-
-        <div class="feature-photo">
-          <img
-            src="https://images.unsplash.com/photo-1621886292650-520f76c747d6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8YXJ0c3xlbnwwfDB8MHx8&auto=format&fit=crop&w=400&q=60"
-            alt="">
-
-        </div>
-
-        <div class="info">
-          <h2>Sample Grid</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse cum quidem quaerat numquam repudiandae. Non
-            voluptatibus in alias blanditiis quos, odit natus quasi, obcaecati ad ducimus asperiores eum nesciunt
-            molestiae cupiditate itaque. Magnam odio saepe facilis dicta neque eaque voluptatem tempore sit. Nesciunt et
-            aspernatur nisi distinctio iste ipsa magnam.</p>
-        </div>
-
-      </div>
-
-
-      <!-- articles sections -->
-
-      <div class="articles">
-
-        <div class="article">
-          <h2>Article 1</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat aut, saepe culpa soluta quibusdam tenetur!
-            Odit, autem commodi laudantium sunt exercitationem iste dolores! Id ut labore nemo voluptate temporibus
-            deleniti dolorem error impedit, doloribus nisi cum, tempore itaque culpa a rerum. Repellendus dolorem
-            perferendis eum facilis delectus at non alias.</p>
-        </div>
-
-        <div class="article">
-          <h2>Article 2</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat aut, saepe culpa soluta quibusdam tenetur!
-            Odit, autem commodi laudantium sunt exercitationem iste dolores! Id ut labore nemo voluptate temporibus
-            deleniti dolorem error impedit, doloribus nisi cum, tempore itaque culpa a rerum. Repellendus dolorem
-            perferendis eum facilis delectus at non alias.</p>
-        </div>
-
-
-        <div class="article">
-          <h2>Article 3</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat aut, saepe culpa soluta quibusdam tenetur!
-            Odit, autem commodi laudantium sunt exercitationem iste dolores! Id ut labore nemo voluptate temporibus
-            deleniti dolorem error impedit, doloribus nisi cum, tempore itaque culpa a rerum. Repellendus dolorem
-            perferendis eum facilis delectus at non alias.</p>
-        </div>
-
-      </div>
-
+      <nav>
+        <a href="">Log In</a>
+        <a href="">Check Courses</a>
+      </nav>
 
 
 
     </div>
+
+
+
+    <!-- feature section -->
+    <div class="feature">
+
+      <div class="info">
+        <div class="head-info">
+          <h1>Learn any digital skill of your choice today</h1>
+          <p>Over 30000 students currently learn with us</p>
+        </div>
+
+        <form action="">
+          <input type="text" placeholder="search for courses">
+          <button>Start Learning</button>
+        </form>
+
+        <p>Try out our free courses.No risk, no credit card required</p>
+      </div>
+
+      <div class="feature-img">
+        <img
+          src="https://images.unsplash.com/photo-1483985988355-763728e1935b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZmFzaGlvbnxlbnwwfDB8MHx8&auto=format&fit=crop&w=400&q=60"
+          alt="">
+      </div>
+
+    </div>
+
+
+
+    <!-- courses section -->
+    <div class="courses">
+
+      <i class="fa-solid fa-book-bookmark fa-xl"></i>
+    </div>
+
+
+
+
+    <!-- testimonials section -->
+    <div class="testimonials"></div>
+
+
+
+
+    <!-- footer section -->
+    <div class="footer"></div>
 
 
   </body>
