@@ -70,3 +70,57 @@ button:hover {
   background-color: black;
   color: white;
 }
+
+.courses {
+  display: grid;
+  gap: 20px;
+  padding: 0 20px;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 70px 0 0 0;
+}
+
+.course .icon {
+  text-align: center;
+  color: var(--main-color);
+  padding-bottom: 10px;
+}
+
+.course p {
+  line-height: 1.2rem;
+  font-size: 1.1rem;
+  text-align: justify;
+}
+
+
+.testimonials {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 50px 0;
+  padding: 0 20px;
+  align-items: start;
+  gap: 10px;
+}
+
+.card-box {
+  background-color: var(--main-color);
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.testimonials .card-info {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.card-info img {
+  width: 100%;
+  clip-path: circle();
+}
+
+.comment {
+  margin-left: 15px;
+}
